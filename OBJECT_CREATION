@@ -1,0 +1,7 @@
+new Cat();
+Cat catVaska = new Cat();
+catVaska.name = "Vaska";
+catVaska.age = 6;
+catVaska.weight = 4;
+catVaska.sleep();
+catVaska.fight(catBarsik);
