@@ -8,3 +8,14 @@ isExit = s.equals("exit");
 
 
 // while (true) 
+for (; true; )
+System.out.println("C");
+
+
+
+for (; true; )
+{
+String s = buffer.readLine();
+if (s.equals("exit"))
+break;
+}
