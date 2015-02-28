@@ -1,0 +1,10 @@
+for (boolean isExit = false; !isExit; )
+{
+String s = buffer.readLine();
+isExit = s.equals("exit");
+}
+
+
+
+
+// while (true) 
