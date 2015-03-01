@@ -1,0 +1,11 @@
+MyFile file = new MyFile("c:\\data\\a.txt");
+String text = file.readText();
+
+
+MyFile file = new MyFile("c:\\data\\", "a.txt");
+String text = file.readText();
+
+
+MyFile file = new MyFile("c:\\data\\a.txt");
+MyFile file2 = new MyFile(file, "a.txt");
+String text = file2.readText();
